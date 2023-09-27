@@ -1,8 +1,25 @@
 body {
   margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 footer {
   margin: 0;
+}
+img {
+  display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
@@ -11,14 +28,29 @@ a {
 
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .container {
-  width: 1158px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* Web Studio Logo */
-
+.header-nav {
+  display: flex;
+  width: 100%;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.header-container {
+  display: flex;
+}
 .web-studio-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -31,8 +63,6 @@ ul {
 .span-studio {
   color: #2e2f42;
 }
-
-/* Studio/Portfolio/Contacts */
 
 .nav-link {
   color: #2e2f42;
@@ -47,11 +77,17 @@ ul {
 .nav-link:focus {
   color: #404bbf;
 }
+.nav-ul {
+  display: flex;
+  gap: 40px;
+}
+.nav-adress {
+  display: flex;
+  gap: 40px;
+  margin-left: 332px;
+}
 
 /* Email / Phone */
-.header-adress {
-  font-style: normal;
-}
 .nav-info {
   line-height: 1.5;
   font-size: 16px;
@@ -66,11 +102,7 @@ ul {
 }
 
 /* Body */
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
+
 /* Effective Solution Section*/
 .effective-solution {
   background: #2e2f42;
@@ -82,6 +114,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-left: 472px;
+  margin-bottom: 48px;
+  padding-bottom: 292px;
 }
 
 /* Button Settings */
@@ -104,6 +141,8 @@ body {
 /* Benefits Section */
 .benefits {
   background-color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .ben-title {
   font-weight: 500;
@@ -111,6 +150,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .ben-paragraph {
   font-size: 16px;
@@ -122,6 +162,7 @@ body {
 /* Team Section / Our Portfolio Section */
 .team {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 .li-section {
   background-color: #ffffff;
@@ -133,6 +174,8 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
 .section-name {
   font-weight: 700;
@@ -148,9 +191,14 @@ body {
   line-height: 1.5;
   font-size: 16px;
 }
+.portfolio-item {
+  margin-bottom: 48px;
+}
 /* Footer */
 .footer-section {
   background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-bottom: 189.5px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -168,4 +216,5 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  margin-top: 17.5px;
 }
