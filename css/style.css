@@ -25,7 +25,9 @@ p {
 a {
   text-decoration: none;
 }
-
+header {
+  padding: 24px 0 24px;
+}
 ul {
   list-style: none;
   margin-top: 0;
@@ -85,10 +87,6 @@ ul {
   display: flex;
   gap: 40px;
 }
-.nav-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
 /* Email / Phone */
 .nav-info {
@@ -97,8 +95,6 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 /* Body */
