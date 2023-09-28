@@ -84,7 +84,10 @@ ul {
 .nav-ul {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
+}
+.nav-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* Email / Phone */
@@ -131,6 +134,7 @@ ul {
   height: 56px;
   border-radius: 4px;
   border: none;
+  margin: 0 auto;
 }
 .button-sol:hover {
   background: #404bbf;
@@ -139,6 +143,18 @@ ul {
   background-color: #404bbf;
 }
 /* Benefits Section */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .benefits {
   background-color: #fff;
   padding-top: 120px;
