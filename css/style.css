@@ -63,6 +63,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0 24px;
 }
 .span-studio {
   color: #2e2f42;
@@ -84,8 +85,6 @@ ul {
 .nav-ul {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .nav-adress {
   display: flex;
