@@ -40,7 +40,7 @@ ul {
   padding-right: 15px;
 }
 
-/* Web Studio Logo */
+/* Web Studio Logo / HEADER */
 .studio-section {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -49,6 +49,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.header-container {
+  display: flex;
 }
 
 .web-studio-logo {
@@ -83,10 +86,6 @@ ul {
   gap: 40px;
   padding: 24px 0 24px;
 }
-.nav-adress {
-  display: flex;
-  gap: 40px;
-}
 
 /* Email / Phone */
 .nav-info {
@@ -95,12 +94,8 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.nav-info:hover {
-  color: #404bbf;
-}
-.nav-info:focus {
-  color: #404bbf;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 /* Body */
