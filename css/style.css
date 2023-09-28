@@ -34,19 +34,22 @@ ul {
 }
 
 .container {
-  width: 100%;
-  max-width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 /* Web Studio Logo */
+.studio-section {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-nav {
   display: flex;
   width: 100%;
   flex-grow: 1;
   justify-content: space-between;
+  align-items: center;
 }
 .header-container {
   display: flex;
@@ -59,6 +62,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .span-studio {
   color: #2e2f42;
@@ -80,6 +84,8 @@ ul {
 .nav-ul {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .nav-adress {
   display: flex;
@@ -106,6 +112,8 @@ ul {
 /* Effective Solution Section*/
 .effective-solution {
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .effective-sol-title {
@@ -115,8 +123,7 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
   padding-top: 188px;
-  padding-right: 472px;
-  padding-left: 472px;
+  max-width: 496px;
   margin-bottom: 48px;
   padding-bottom: 292px;
 }
@@ -131,6 +138,10 @@ ul {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 .button-sol:hover {
   background: #404bbf;
@@ -143,6 +154,13 @@ ul {
   background-color: #fff;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.benefits-ul {
+  display: flex;
+  gap: 24px;
+}
+.benefits-li-one {
+  width: calc((100% - 72px) / 4);
 }
 .ben-title {
   font-weight: 500;
@@ -197,8 +215,8 @@ ul {
 /* Footer */
 .footer-section {
   background-color: #2e2f42;
-  padding-top: 101.5px;
-  padding-bottom: 189.5px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -208,6 +226,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .span-studio-footer {
   color: #f4f4fd;
