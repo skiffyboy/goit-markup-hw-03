@@ -45,11 +45,10 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
-  display: flex;
   width: 100%;
-  flex-grow: 1;
-  justify-content: space-between;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .web-studio-logo {
@@ -91,11 +90,11 @@ ul {
 
 /* Email / Phone */
 .nav-info {
+  display: flex;
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
-  display: flex;
 }
 .nav-info:hover {
   color: #404bbf;
