@@ -25,9 +25,7 @@ p {
 a {
   text-decoration: none;
 }
-header {
-  padding: 24px 0 24px;
-}
+
 ul {
   list-style: none;
   margin-top: 0;
@@ -47,7 +45,6 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,6 +84,19 @@ ul {
   display: flex;
   gap: 40px;
 }
+.adress-link {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+.adress-link:hover {
+  color: #404bbf;
+}
+.adress-link:focus {
+  color: #404bbf;
+}
 
 /* Email / Phone */
 .nav-info {
@@ -95,6 +105,10 @@ ul {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.header-adress {
+  margin-left: auto;
+  font-style: normal;
 }
 
 /* Body */
